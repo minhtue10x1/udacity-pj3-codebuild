@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: udacity-pj3-tuenm2-api
-          image: 516661558134.dkr.ecr.us-east-1.amazonaws.com/udacity-pj3-tuenm2:3
+          image: 516661558134.dkr.ecr.us-east-1.amazonaws.com/udacity-pj3-tuenm2:4
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
